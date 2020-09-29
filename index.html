@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="contact">
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="Mariusz"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Rozycki"><br>
+      <label for="tel">Phone:</label><br>
+      <input type="tel" id="tel" name="telefon" placeholder="601-102-203" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+        value="+4793928270" />
+    </form>
+
+    <button>Wyświetl dane</button>
+    <div id="container">
+      <p>Dane:</p>
+      <p id="name"></p>
+      <p id="surname"></p>
+      <p id="phone"></p>
+    </div>
+  </section>
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
